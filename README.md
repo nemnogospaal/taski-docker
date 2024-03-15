@@ -38,7 +38,7 @@
 
     `python -m venv venv`  создать виртуальное окружение\
     `source venv/Scripts/activate`  активировать виртуальное окружение\
-    `python -m pip install --upgrade pip`  обновить установщик\
+    `python -m pip install --upgrade pip`  обновить окружение\
     `cd backend`  Перейдите в директорию backend\
     `pip install -r requirements.txt`  установить зависимости из файла requirements.txt\
     `python manage.py migrate`  выполнить миграции\
