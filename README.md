@@ -18,8 +18,9 @@
     `docker compose exec backend python manage.py createsuperuser` создать суперпользователя\
 
 После запуска будут доступны следующие адреса:\
-    - главная -> http://localhost:8000/
-    - админка -> http://localhost:8000/admin/
+    - главная  http://localhost:8000/
+
+    - админка  http://localhost:8000/admin/
 
 Дополнительные команды для работы:\
     `docker compose up --build`  пересборка контейнеров\
