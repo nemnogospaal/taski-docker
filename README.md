@@ -28,7 +28,6 @@
     `docker-compose stop`  остановить Docker Compose\
     `docker-compose down`  остановить Docker Compose и удалить все контейнеры
 
-**Без docker**
 При запуске использовались следующие версии пакетов:
 - Nodejs -> v15.9.0
 - npm -> 7.5.3
