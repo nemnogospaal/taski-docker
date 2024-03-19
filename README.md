@@ -8,7 +8,7 @@
 ### Как запустить проект:
 `git clone git@github.com:nemnogospaal/taski-docker.git`  клонировать репозиторий
 
-**Docker**\
+**Docker**
     Перед началом нужно установить и запустить Docker.\
     `docker-compose up`  запустить Docker Compose\
     Открыть новый терминал\
@@ -34,7 +34,7 @@
 - Python -> 3.9.10
 - pip -> 24.0
 
-Запуск **backend**\
+Запуск **backend**
 
     `python -m venv venv`  создать виртуальное окружение\
     `source venv/Scripts/activate`  активировать виртуальное окружение\
@@ -45,7 +45,7 @@
     `python manage.py createsuperuser`  создать суперпользователя\
     `python manage.py runserver`  запустить проект
 
-Запуск **frontend**\
+Запуск **frontend**
 
 `cd frontend`  перейти в директорию frontend\
 `npm i`  установить зависимости\
