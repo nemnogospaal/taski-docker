@@ -17,13 +17,13 @@
     `docker compose exec backend python manage.py migrate`  выполнить миграции\
     `docker compose exec backend python manage.py createsuperuser` создать суперпользователя\
 
-После запуска будут доступны следующие адреса:\
+После запуска будут доступны следующие адреса:
 
     - главная  http://localhost:8000/
 
     - админка  http://localhost:8000/admin/
 
-Дополнительные команды для работы:\
+Дополнительные команды для работы:
     `docker compose up --build`  пересборка контейнеров\
     `docker-compose stop`  остановить Docker Compose\
     `docker-compose down`  остановить Docker Compose и удалить все контейнеры
